@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego del ahorcado</title>
+    <link rel="stylesheet" href="reset.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=inter:wght@100&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <head>
+        <div id="divLogo"><img id="logo"  src="imagenes/logo.png" alt="logo"></div>
+    </head>
+    <main>
+        <div id="divIngresePalabra">
+            <input type="text" id="inputPalabraNueva" placeholder="Ingrese una palabra">
+        </div>    
+        <div id="divAhorcado">
+            <canvas id="canvAhorcado" width="800px" height="500px"></canvas>
+            <div id="divInicioAgregar">
+                <input id="btnInicio" class="btnAzul" type="submit" value="Iniciar juego" onclick="iniciarJuego()">
+                <input id="btnAgregar" class="btnBlanco" type="submit" value="Agregar nueva palabra" onclick="agregarPalabra()">
+            </div>
+        </div>
+        <div id="divPalabraAdivinar">
+            <div id="divPalabra">
+                <img src="./imagenes/palabra.png">
+            </div>
+            <div id="divGuardarCancelar">
+                <img id="exclamacion" src="./imagenes/exclamacion.png">Máx. de 8 letras
+                <div id="divBtnGuardarCancelar">
+                    <input id="btnGuardar" class="btnAzul" type="submit" value="Guardar y empesar">
+                    <input id="btnCancelar" class="btnBlanco" type="submit" value="Cancelar">
+                </div>
+            </div>        
+        </div>       
+        <div id="divNuevoDesistir">
+            <input id="btnNuevoJuego" class="btnAzul" type="submit" value="Nuevo juego" onclick="nuevoJuego()">
+            <input id="btnDesistir" class="btnBlanco" type="submit" value="Desistir"
+            onclick="desistir()">
+        </div>    
+    </main> 
+    <!-- javascript-->
+    <script src="ahorcado.js"></script>  
+    <script src="canvas.js"></script> 
+</body>
+</html>

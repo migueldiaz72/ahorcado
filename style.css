@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    background: url(imagenes/fondoAhorcado.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+
+}
+
+
+#divLogo{
+    background: yellowgreen;
+}
+
+
+#logo{
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+
+.btnAzul{
+    background: #0A3871;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 8px;
+    width: 200px;
+    height: 40px;    
+}
+
+
+.btnBlanco{
+    background: #E5E5E5;
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+    border-radius: 8px;
+    width: 200px;
+    height: 40px;    
+}
+
+
+#divIngresePalabra{    
+    background: transparent;
+}
+
+
+#inputPalabraNueva{
+    width: 400px;
+    height: 30px;
+    border-color: #000000;
+    margin-top: 5px;
+    margin-left: 650px;
+    background: transparent;
+}
+
+
+::placeholder{
+    font-size: 18px;
+    color: #000000;
+}
+
+
+#divAhorcado{
+    background: transparent;
+    padding-top: 1px;
+    padding-left: 25px;
+    position: relative;
+}
+
+
+#canvAhorcado{
+    background: transparent;
+    margin-left: 400px;
+   
+}
+
+
+#divInicioAgregar{
+    
+    position: absolute;
+    left: 350px;
+    top: 150px;
+    width: 410px;
+    padding-left: 5px;
+
+
+}
+
+
+#divPalabraAdivinar{
+    background: transparent;
+    position: relative;
+}
+
+
+#divPalabra{
+    padding-top: 2px;
+    padding-left: 250px;
+}
+
+
+
+#divGuardarCancelar{
+    background: transparent;
+    width: 450px;
+    position: absolute;
+    left: 220px;
+    top: 0;
+
+}
+
+
+#exclamacion{
+    padding-top: 2px;
+    padding-left:1px ;
+}
+
+
+#divBtnGuardarCancelar{
+    padding-top: 2px;
+}
+
+
+#btnGuardar{
+    margin-right: 20px;
+}
+
+
+#divNuevoDesistir{
+    background: transparent;
+    margin-left: 400px;
+    padding-top: 80px;
+    padding-left: 80px;
+}
+
+
+
+
+
+
+
+
+
